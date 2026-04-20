@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>WL Networking</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #000000, #1a1a1a);
+      color: white;
+      text-align: center;
+      padding: 50px;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: auto;
+      background: #111;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
+    h1 {
+      color: #00ff88;
+    }
+
+    p {
+      color: #ccc;
+    }
+
+    .btn {
+      display: block;
+      margin: 15px 0;
+      padding: 15px;
+      background: #00ff88;
+      color: black;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #00cc6a;
+    }
+
+    .numero {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>WL Networking</h1>
+    <p>Entre no nosso grupo exclusivo 🔥</p>
+
+    <a class="btn" href="https://instagram.com/SEU_USUARIO" target="_blank">
+      Acessar Instagram
+    </a>
+
+    <div class="numero">
+      📲 Número do grupo:<br>
+      <strong>(62) 99999-9999</strong>
+    </div>
+  </div>
+
+</body>
+</html>

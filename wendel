@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>WL METODOS</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+      background: url('logo.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .overlay {
+      background: rgba(0,0,0,0.75);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 400px;
+      padding: 20px;
+    }
+
+    .logo-text {
+      font-size: 35px;
+      font-weight: bold;
+      color: #00ff88;
+      text-shadow: 0 0 10px #00ff88;
+    }
+
+    .sub {
+      margin-top: 10px;
+      color: #ccc;
+    }
+
+    .btn {
+      display: block;
+      margin: 15px 0;
+      padding: 15px;
+      background: linear-gradient(90deg, #00ff88, #00cc66);
+      color: black;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+    }
+
+    .numero {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    .alerta {
+      margin-top: 20px;
+      color: red;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="overlay">
+    <div class="container">
+
+      <div class="logo-text">WL METODOS</div>
+      <div class="sub">Métodos exclusivos e validados 🔥</div>
+
+      <a class="btn" href="https://www.instagram.com/wendelzxwll" target="_blank">
+        📸 Acessar Instagram
+      </a>
+
+      <a class="btn" href="https://wa.me/5561995028592" target="_blank">
+        💬 Entrar no Grupo
+      </a>
+
+      <div class="numero">
+        📲 Número do grupo:<br>
+        <strong>(61) 99502-8592</strong>
+      </div>
+
+      <div class="alerta">
+        ⚠️ Vagas limitadas — acesso pode sair do ar a qualquer momento
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
